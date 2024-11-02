@@ -1,0 +1,7 @@
+class CountDigits{
+   public static void main(String args[]){
+   int num=18459677;
+  int count = String.valueOf(num).length();
+   System.out.println(count);
+}
+}
