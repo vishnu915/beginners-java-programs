@@ -1,0 +1,12 @@
+import java.util.Arrays;
+public class MergeArrays {
+	public static void main(String[] args) {
+	int[]arr1= {45,18,1};
+   int[]arr2= {63,77,96};
+   //merged two Array
+   int[]merged=new int[arr1.length+arr2.length];
+   System.arraycopy(arr1,0,merged,0,arr2.length);
+   System.arraycopy(arr2,0,merged,arr1.length,arr2.length);
+   System.out.println(Arrays.toString(merged));
+	}
+}
