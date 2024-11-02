@@ -1,0 +1,13 @@
+public class LargestArray {
+	public static void main(String[] args) {
+		int[]arr= {18,45,77,96};
+		int largest=arr[0];
+		for(int num:arr) {
+			if(num>largest) {
+				largest=num;
+			}
+		}
+		System.out.println(largest);
+	}
+
+}
